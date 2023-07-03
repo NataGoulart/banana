@@ -1,0 +1,75 @@
+body
+{
+font-family:Impact, 'Arial Narrow Bold', sans-serif;
+overflow: hidden;
+
+}
+
+.area-login
+{
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+justify-content: center;
+align-items: center;
+font-size: 15px;/*ALTERAR TAMANHO DA FONTE*/
+}
+.login
+{/*DIV ROSA A MAOIR */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+background-color: rgba(8, 117, 43, 0.368); /*MUDAR AS COR DO DIV MAIOR*/
+width: 355px;
+height: 250px;/*ALTERA A ALTURA */
+padding: 35px;
+border-radius: 12%;
+margin-bottom: 50px;
+
+}
+
+.login form 
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.login input
+{ /*CAMPOS DO CADASTRO*/
+background-color:rgb(255, 255, 255) ;
+margin-top: 10px;/*ESPAÇA AS DIV DE CADA */
+border:  none;
+height: 45px;/*ALTERA A ALTURA DA DIV*/
+outline: none;
+border-radius: 8px;/*ALTERA A BORDA DA DIV*/
+color: rgb(0, 0, 0);
+padding-left: 10px;/*DEIXA AS LETRAS MAIS PARA ESQUERDA OU PARA DIREITA*/
+font-size: 15px;/*ALTERAR TAMANHO DA FONTE*/
+
+}
+
+.login input:hover
+{ /*CAMPOS DO CADASTRO*/
+ background-color: rgba(8, 117, 43, 0.777); /*MUDAR AS COR DO DIV MAIOR*/
+margin-top: 10px;/*ESPAÇA AS DIV DE CADA */
+border:  none;
+height: 45px;/*ALTERA A ALTURA DA DIV*/
+outline: none;
+border-radius: 8px;/*ALTERA A BORDA DA DIV*/
+
+padding-left: 10px;/*DEIXA AS LETRAS MAIS PARA ESQUERDA OU PARA DIREITA*/
+font-size: 15px;/*ALTERAR TAMANHO DA FONTE*/
+}
+
+input::placeholder
+{
+color: rgb(0, 0, 0);
+font-size: 14px;
+}
+
+.icone2{
+    margin-top: -35px;
+    margin-left: 200px;
+}
